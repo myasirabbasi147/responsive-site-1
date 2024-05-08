@@ -1,24 +1,64 @@
 .container {
-    max-width: 1000px;
-    height: 1461px;
+    max-width: 480.77px;
 }
-
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width: max-content;
-    width: 100%;
-    height: 2.8%;
-    background: #FFFFFF;
-    box-shadow: 0px 1.33547px 2.67093px rgba(171, 190, 209, 0.4);
-}
-
 
 .left-navbar {
     width: 51.58px;
     height: 8.01px;
-    padding-bottom: 5px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.right-navbar {
+    width: 312px;
+    height: 18.35px;
+    margin-top: 0;
+    margin-right: 40px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 29.03px;
+
+    /* Neutral/White */
+    background: #FFFFFF;
+    box-shadow: 0px 1.33547px 2.67093px rgba(171, 190, 209, 0.4);
+}
+
+.banner {
+    width: 480.77px;
+    height: 199.99px;
+    margin: 0;
+    /* Neutral/Silver */
+    background: #F5F7FA;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    /* align-self: stretch; */
+    flex-grow: 0;
+}
+
+.banner-heading {
+    /* Lessons and insights from 8 years */
+
+width: 50px;
+height: 51px;
+
+/* Neutral/D_Grey */
+color: #4D4D4D;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
 }
