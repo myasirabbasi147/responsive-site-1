@@ -42,8 +42,6 @@ body {
 
 }
 
-
-
 .text-icon {
     font-family: Inter;
     font-size: 10px;
@@ -62,8 +60,6 @@ body {
 
 }
 
-
-
 .right-navbar {
     /* Auto layout */
     display: flex;
@@ -75,7 +71,6 @@ body {
 
     width: 312px;
     height: 18.35px;
-
 
     /* Inside auto layout */
     flex: none;
@@ -133,6 +128,7 @@ body {
     text-align: center;
     color: #FFFFFF;    
 }
+
 .blog {
     margin-left: 15px;
 }
@@ -387,12 +383,10 @@ body {
     /* Neutral/D_Grey */
     color: #4D4D4D;
 
-
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
-
 }
 
 .management-description {
@@ -414,5 +408,135 @@ body {
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+}
 
+.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8.68px;
+
+    width: 480.77px;
+    height: 94.73px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.card-icon {
+    width: 21.7px;
+    height: 18.7px;
+    margin-left: 35px;
+}
+
+.info {
+    width: 77.12px;
+    height: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.34826px;
+    line-height: 12px;
+    text-align: center;
+
+    /* Neutral/D_Grey */
+    color: #4D4D4D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.card-info {
+    width: 89.14px;
+    height: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.34826px;
+    line-height: 12px;
+    text-align: center;
+
+    /* Neutral/D_Grey */
+    color: #4D4D4D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card-description {
+    width: 83.8px;
+    height: 21px;
+    margin-top: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.67413px;
+    line-height: 7px;
+    text-align: center;
+
+    /* Neutral/Grey */
+    color: #717171;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.card-1 {
+    padding: 8.0128px 10.6837px;
+    gap: 2.67px;
+
+    margin: 0 auto;
+    width: 99.83px;
+    height: 88.73px;
+
+    /* Neutral/White */
+    background: #FFFFFF;
+    box-shadow: 0px 0.667733px 1.33547px rgba(171, 190, 209, 0.2);
+    border-radius: 2.67093px;
+}
+
+.card-2 {
+    padding: 8.0128px 10.6837px;
+    gap: 2.67px;
+
+    margin: 0 auto;
+    width: 99.83px;
+    height: 88.73px;
+
+    /* Neutral/White */
+    background: #FFFFFF;
+    box-shadow: 0px 0.667733px 1.33547px rgba(171, 190, 209, 0.2);
+    border-radius: 2.67093px;
+}
+
+.card-3 {
+    padding: 8.0128px 10.6837px;
+    gap: 2.67px;
+
+    margin: 0 auto;
+    width: 99.83px;
+    height: 88.73px;
+
+    /* Neutral/White */
+    background: #FFFFFF;
+    box-shadow: 0px 0.667733px 1.33547px rgba(171, 190, 209, 0.2);
+    border-radius: 2.67093px;
 }
