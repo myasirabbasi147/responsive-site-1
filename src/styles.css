@@ -265,7 +265,17 @@ body {
     top: 170.35px;
 }
 .green-dot {
-    color: red;
+    width: 3.34px;
+    height: 3.34px;
+    margin-top: 14px;
+
+    /* Brand/Primary */
+    background: #4CAF4F;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .about-client {
@@ -1456,4 +1466,317 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.demo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 10.68px;
+
+    width: 480.77px;
+    height: 101.4px;
+    margin-top: 70px;
+
+    /* Neutral/Silver */
+    background: #F5F7FA;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.demo-title {
+    width: 296.14px;
+    height: 51px;
+    margin-top: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.3675px;
+    line-height: 25px;
+    text-align: center;
+
+    /* Neutral/Black */
+    color: #263238;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.demo-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 2.67px;
+
+    width: 59.38px;
+    height: 18.35px;
+
+    /* Brand/Primary */
+    background: #4CAF4F;
+    border-radius: 1.33547px;
+    border: 1px solid #4CAF4F;
+}
+
+.demo-button-info {
+    width: 40px;
+    height: 9px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 5.34186px;
+    line-height: 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Neutral/White */
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 41.73px;
+
+    width: 480.77px;
+    height: 111.77px;
+
+    /* Neutral/Black */
+    background: #263238;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.copyright-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 13.35px;
+
+    width: 116.85px;
+    height: 63.97px;
+    margin-top: 20px;
+    margin-left: 60px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nexcent-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 3.3px;
+
+    width: 63.77px;
+    height: 9.91px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer-icon {
+    margin-top: 5px;
+}
+
+.footer-main-logo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.34186px;
+    color: #F5F7FA;
+    margin-top: 4px;
+}
+
+.footer-text {
+    width: 116.85px;
+    height: 7px;
+    margin-top: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.67413px;
+    line-height: 7px;
+
+    /* Neutral/Silver */
+    color: #F5F7FA;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10.02px;
+
+    width: 212.01px;
+    height: 69.04px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer-company {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8.01px;
+
+    width: 53.42px;
+    height: 69.04px;
+    margin-top: 20px;
+}
+
+.company-title {
+    width: 53.42px;
+    height: 10px;
+    margin-top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.67733px;
+    line-height: 9px;
+
+    /* Neutral/White */
+    color: #FFFFFF;
+}
+
+
+.point-about-us {
+    width: 53.42px;
+    height: 7px;
+    margin-top: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.67413px;
+    line-height: 7px;
+
+    /* Neutral/Silver */
+    color: #F5F7FA;
+}
+
+.point-blog {
+    width: 53.42px;
+    height: 7px;
+    margin-top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.67413px;
+    line-height: 7px;
+
+    /* Neutral/Silver */
+    color: #F5F7FA;
+}
+
+.point-contact-us {
+    width: 53.42px;
+    height: 7px;
+    margin-top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.67413px;
+    line-height: 7px;
+
+    /* Neutral/Silver */
+    color: #F5F7FA;
+}
+.point-pricing {
+    width: 53.42px;
+    height: 7px;
+    margin-top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.67413px;
+    line-height: 7px;
+
+    /* Neutral/Silver */
+    color: #F5F7FA;
+}
+.point-testimonials {
+    width: 53.42px;
+    height: 7px;
+    margin-top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.67413px;
+    line-height: 7px;
+
+    /* Neutral/Silver */
+    color: #F5F7FA;
+}
+.up-to-date-title {
+    width: 70.42px;
+    height: 10px;
+    margin-top: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.67733px;
+    line-height: 9px;
+
+    /* Neutral/White */
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+input {
+    width: 100px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 2.67093px;
+}
+
+.send {
+    width: 20px;
+    height: 20px;    
 }
