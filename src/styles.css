@@ -1794,3 +1794,28 @@ body {
     left: 460px;
     top: 1490px;
 }
+
+@media screen and (min-width:769px) {
+    body {
+        max-width: 1145.34px;
+    }
+    .container {
+        width: 100%;
+        margin: 0 ;
+    }
+    .navbar {
+        padding: 11.1371px 100.234px;
+        width: 1145.34px;
+    }
+    /* .banner-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 66.8227px 100.234px;
+        gap: 72.39px;
+
+        width: 1002.34px;
+        height: 416.95px;
+
+    }*/
+}
