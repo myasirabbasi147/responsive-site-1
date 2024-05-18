@@ -1769,14 +1769,28 @@ body {
     flex-grow: 0;
 }
 
-input {
-    width: 100px;
-    background: #FFFFFF;
-    opacity: 0.2;
+.box input {
+    /* opacity: 0.2; */
+    border: transparent;
     border-radius: 2.67093px;
+    padding-bottom: 3px;
+    padding-left: 4px;
+    width: 120px;
+    background-color: grey;
 }
 
-.send {
-    width: 20px;
-    height: 20px;    
+.box input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.67413px;
+    line-height: 7px;
+
+    /* Text / Gray 300 */
+    color: #D9DBE1;
+}
+.box img {
+    position: absolute;
+    left: 460px;
+    top: 1490px;
 }
