@@ -39,7 +39,6 @@ body {
 .icon {
     width: 11.69px;
     height: 8.01px;
-
 }
 
 .text-icon {
@@ -116,8 +115,9 @@ body {
 }
 
 .button-text {
-    width: 40px;
+    width: 90px;
     height: 14px;
+    margin-left: 8px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -126,7 +126,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;    
+    color: #FFFFFF;
 }
 
 .blog {
@@ -162,11 +162,9 @@ body {
     font-weight: 600;
     font-size: 21.3675px;
     line-height: 25px;
-    /* or 119% */
 
     /* Neutral/D_Grey */
     color: #4D4D4D;
-
 
     /* Inside auto layout */
     flex: none;
@@ -267,7 +265,7 @@ body {
 .green-dot {
     width: 3.34px;
     height: 3.34px;
-    margin-top: 14px;
+    margin-top: 15px;
 
     /* Brand/Primary */
     background: #4CAF4F;
@@ -1800,22 +1798,326 @@ body {
         max-width: 1145.34px;
     }
     .container {
-        width: 100%;
-        margin: 0 ;
+        width: 1145.34px;
+        margin: 0;
     }
     .navbar {
         padding: 11.1371px 100.234px;
         width: 1145.34px;
     }
-    /* .banner-wrapper {
+    .left-navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 5.57px;
+
+        width: 107.54px;
+        height: 16.71px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .icon {
+        width: 24.36px;
+        height: 16.71px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .text-icon {
+        font-weight: 700;
+        font-size: 20px;
+        width: 77.61px;
+        height: 24.38px;
+        margin-top: 8px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .right-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 22.27px;
+
+        width: 650.48px;
+        height: 36.49px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+    }
+    .right {
+        width: 71px;
+        height: 17px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.1371px;
+        line-height: 17px;
+        text-align: center;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .register-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 9.74497px 22.2742px;
+        gap: 5.57px;
+
+        width: 133.25px;
+        height: 36.49px;
+
+        /* Brand/Primary */
+        background: #4CAF4F;
+        border-radius: 2.78428px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .button-text {
+        width: 90px;
+        height: 17px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.1371px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .banner-wrapper {
         display: flex;
         flex-direction: row;
         align-items: center;
         padding: 66.8227px 100.234px;
         gap: 72.39px;
 
-        width: 1002.34px;
+        width: 1145.34px;
         height: 416.95px;
+    }
+    .banner-title {
+        width: 457.32px;
+        height: 106px;
+        margin-left: 90px;
 
-    }*/
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44.5484px;
+        line-height: 53px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .banner-image img {
+        width: 272.16px;
+        height: 283.3px;
+        margin-bottom: 90px;
+        margin-left: 90px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .banner-text {
+        width: 457.32px;
+        height: 17px;
+        margin-top: 190px;
+        margin-left: 90px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.1371px;
+        line-height: 17px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .banner-button {
+        width: 89.55px;
+        height: 36.49px;
+        margin-left: 90px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .banner-button-text {
+        width: 45px;
+        height: 17px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.1371px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .three-dots {
+        margin-top: 340px;
+    }
+    .about-client {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 11.14px;
+
+        width: 1145.34px;
+        height: 132.92px;
+        margin: 0;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .client-header {
+        margin-top: 20px;
+        margin-left: 490px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25.0585px;
+        line-height: 31px;
+        text-align: center;
+    }
+    .client-text {
+        width: 510.64px;
+        height: 17px;
+        margin: 10px 0 0 420px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.1371px;
+        line-height: 17px;
+        text-align: center;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .client-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 22.27px;
+
+        width: 801.87px;
+        height: 50.21px;
+        margin-left: 490px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .management-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 11.14px;
+
+        width: 1002.34px;
+        height: 291.8px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .management-title {
+        width: 377.27px;
+        height: 62px;
+        margin-left: 480px;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25.0585px;
+        line-height: 31px;
+        text-align: center;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .management-description {
+        width: 1002.34px;
+        height: 17px;
+        margin-left: 160px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.1371px;
+        line-height: 17px;
+        text-align: center;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .cards-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 100.234px;
+        gap: 18.1px;
+
+        width: 1002.34px;
+        height: 196.1px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .card-1 {
+        
+    }
 }
