@@ -455,7 +455,6 @@ body {
     /* Neutral/D_Grey */
     color: #4D4D4D;
 
-
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -2117,7 +2116,120 @@ body {
         order: 1;
         flex-grow: 0;
     }
+    .card-icon {
+        width: 45.24px;
+        height: 38.98px;    
+    }
+    .info {
+        width: 160.79px;
+        height: 51px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.4899px;
+        line-height: 25px;
+        text-align: center;
+
+        /* Neutral/D_Grey */
+        color: #4D4D4D;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .card-info {
+        width: 185.85px;
+        height: 51px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.4899px;
+        line-height: 25px;
+        text-align: center;
+
+        /* Neutral/D_Grey */
+        color: #4D4D4D;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .card-description {
+        width: 174.71px;
+        height: 42px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9.74497px;
+        line-height: 14px;
+        text-align: center;
+
+        /* Neutral/Grey */
+        color: #717171;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
     .card-1 {
-        
+        padding: 16.7057px 22.2742px;
+        gap: 5.57px;
+
+        margin: 0 auto;
+        width: 208.12px;
+        height: 182.1px;
+
+        /* Neutral/White */
+        background: #FFFFFF;
+        box-shadow: 0px 1.39214px 2.78428px rgba(171, 190, 209, 0.2);
+        border-radius: 5.56856px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .card-2 {
+        padding: 16.7057px 22.2742px;
+        gap: 5.57px;
+
+        margin: 0 auto;
+        width: 208.12px;
+        height: 182.1px;
+
+        /* Neutral/White */
+        background: #FFFFFF;
+        box-shadow: 0px 1.39214px 2.78428px rgba(171, 190, 209, 0.2);
+        border-radius: 5.56856px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .card-3 {
+        padding: 16.7057px 22.2742px;
+        gap: 5.57px;
+
+        margin: 0 auto;
+        width: 208.12px;
+        height: 182.1px;
+
+        /* Neutral/White */
+        background: #FFFFFF;
+        box-shadow: 0px 1.39214px 2.78428px rgba(171, 190, 209, 0.2);
+        border-radius: 5.56856px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 2;
+        flex-grow: 0;
     }
 }
