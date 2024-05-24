@@ -1794,15 +1794,15 @@ body {
 
 @media screen and (min-width:769px) {
     body {
-        max-width: 1145.34px;
+        max-width: 1148px;
     }
     .container {
-        width: 1145.34px;
+        width: 1148px;
         margin: 0;
     }
     .navbar {
         padding: 11.1371px 100.234px;
-        width: 1145.34px;
+        width: 1148px;
     }
     .left-navbar {
         display: flex;
@@ -1916,7 +1916,7 @@ body {
         padding: 66.8227px 100.234px;
         gap: 72.39px;
 
-        width: 1145.34px;
+        width: 1148px;
         height: 416.95px;
     }
     .banner-title {
@@ -2352,6 +2352,508 @@ body {
 
         /* Neutral/White */
         color: #FFFFFF;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .business-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 44.5484px 100.234px;
+        gap: 20.88px;
+
+        width: 1148.34px;
+        height: 202.94px;
+
+        /* Neutral/Silver */
+        background: #F5F7FA;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .business-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 5.57px;
+
+        margin: 0 auto;
+        width: 375.88px;
+        height: 84.57px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .business-title {
+        width: 284px;
+        height: 62px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25.0585px;
+        line-height: 31px;
+
+        /* Neutral/D_Grey */
+        color: #4D4D4D;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .business-description {
+        width: 375.88px;
+        height: 17px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.1371px;
+        line-height: 17px;
+
+        /* Text / Gray 900 */
+        color: #18191F;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .business-counts-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 27.84px;
+
+        margin: 0 auto;
+        width: 375.88px;
+        height: 113.84px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .business-counts-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 20.88px;
+
+        width: 375.88px;
+        height: 43px;
+        margin-right: 60px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .count {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 11.14px;
+
+        width: 177.5px;
+        height: 43px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .counting-icon {
+        width: 33.41px;
+        height: 33.41px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .counting {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        width: 132.95px;
+        height: 43px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .count {
+        width: 132.95px;
+        height: 26px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.4899px;
+        line-height: 25px;
+
+        /* Neutral/D_Grey */
+        color: #4D4D4D;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .count-info {
+        width: 132.95px;
+        height: 17px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.1371px;
+        line-height: 17px;
+
+        /* Neutral/Grey */
+        color: #717171;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .separator {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 20.88px;
+
+        width: 375.88px;
+        height: 43px;
+        margin-left: 60px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .business-counts-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 20.88px;
+
+        width: 375.88px;
+        height: 43px;
+        margin-right: 64px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .how-to-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+
+        width: 1002.34px;
+        height: 301.68px;
+        margin-left: 95px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .how-to-img img {
+        margin: 0 auto;
+        width: 307.34px;
+        height: 301.68px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .how-to-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 22.27px;
+
+        width: 460.1px;
+        height: 215.9px;
+        margin-top: 35px ;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .how-to-title {
+        width: 418.34px;
+        height: 62px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25.0585px;
+        line-height: 31px;
+
+        /* Neutral/D_Grey */
+        color: #4D4D4D;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .how-to-description {
+        width: 418.34px;
+        height: 84px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9.74497px;
+        line-height: 14px;
+
+        /* Neutral/Grey */
+        color: #717171;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .how-to-button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 9.74497px 22.2742px;
+        gap: 6.96px;
+
+        width: 105.55px;
+        height: 36.49px;
+
+        /* Brand/Primary */
+        background: #4CAF4F;
+        border-radius: 2.78428px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .how-to-button-info {
+        width: 61px;
+        height: 17px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.1371px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        /* Neutral/White */
+        color: #FFFFFF;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .product-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        gap: 54.29px;
+
+        width: 1348px;
+        height: 280.47px;
+        margin-top: 40px;
+
+        /* Neutral/Silver */
+        background: #F5F7FA;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+    }
+    .product-divs-wrapper {
+        margin-bottom: 100px;
+        margin-left: 200px;
+    }
+    .product-img img {
+        width: 226.92px;
+        height: 226.92px;
+
+        background: url(.jpg);
+        filter: drop-shadow(0px 5.56856px 11.1371px rgba(171, 190, 209, 0.4));
+        border-radius: 5.56856px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .product-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 22.27px;
+
+        width: 520.66px;
+        height: 226.39px;
+        margin-top: 6px;
+        margin-left: 50px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+    }
+    .product-description {
+        width: 520.66px;
+        height: 117px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.1371px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+
+        /* Neutral/Grey */
+        color: #717171;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .product-owner {
+        width: 520.66px;
+        height: 20px;
+        margin-top: -10px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13.9214px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        /* Brand/Primary */
+        color: #4CAF4F;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .product-company {
+        width: 520.66px;
+        height: 17px;
+        margin-top: -10px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11.1371px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+
+        /* Neutral/L_Grey */
+        color: #89939E;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .product-logos-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px;
+        gap: 0px;
+
+        width: 520.66px;
+        height: 33.41px;
+        margin-top: -15px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .product-logos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 28.54px;
+
+        width: 343.16px;
+        height: 33.41px;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .meet-customers {
+        width: 145.86px;
+        height: 20px;
+        margin-right: 360px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13.9214px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+
+        /* Brand/Primary */
+        color: #4CAF4F;
 
         /* Inside auto layout */
         flex: none;
